@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>atrssasaw 🧽✨ - Sweet Pastel Vibes</title>
+  <meta name="description" content="Website personal atrssasaw bertema pastel dan Spongebob yang aesthetic, lucu, dan santai.">
+  <link rel="icon" href="assets/images/flower-cloud.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Floating Bikini Bottom Flower Clouds (Background) -->
+  <img src="assets/images/flower-cloud.svg" alt="" class="flower-cloud-bg cloud-1" aria-hidden="true">
+  <img src="assets/images/flower-cloud.svg" alt="" class="flower-cloud-bg cloud-2" aria-hidden="true">
+  <img src="assets/images/flower-cloud.svg" alt="" class="flower-cloud-bg cloud-3" aria-hidden="true">
+  <img src="assets/images/flower-cloud.svg" alt="" class="flower-cloud-bg cloud-4" aria-hidden="true">
+
+  <!-- Floating Bubbles Container (Interactive) -->
+  <div id="bubble-container" title="Klik gelembung untuk meletuskannya! 🫧"></div>
+
+  <!-- Main Page Wrapper -->
+  <div class="page-wrapper">
+
+    <!-- Navigation Header -->
+    <header class="site-header">
+      <nav class="nav-container">
+        <a href="index.html" class="brand-logo">
+          <div class="brand-icon">🧽</div>
+          <span class="brand-text">atrssasaw</span>
+        </a>
+
+        <ul class="nav-links">
+          <li>
+            <a href="index.html" class="nav-link active">
+              <span>🏠</span> <span>Beranda</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html" class="nav-link">
+              <span>🎀</span> <span>Profil</span>
+            </a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link">
+              <span>💌</span> <span>Kontak</span>
+            </a>
+          </li>
+          <li>
+            <button id="sound-toggle" class="sound-toggle-btn" title="Toggle Suara Efek" aria-label="Toggle Sound">
+              🔊
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-card">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span>✨</span> <span>Selamat datang di Bikini Bottom Pastel!</span>
+          </div>
+          <h1 class="hero-title">
+            Halo! Aku <span class="highlight">Sastra</span>~ <br>Senang kamu mampir ke sini 🫧
+          </h1>
+          <p class="hero-desc">
+            Selamat datang di <strong>atrssasaw</strong>, sudut kecil di internet dengan suasana santai, warna pastel yang hangat, dan sentuhan keceriaan dunia SpongeBob. Yuk intip ceritaku di SMK Telkom Malang atau saling sapa lewat media sosial!
+          </p>
+          <div class="hero-actions">
+            <a href="profile.html" class="btn-pastel btn-pink">
+              <span>🎀</span> <span>Kenalan Yuk! (Profil)</span>
+            </a>
+            <a href="contact.html" class="btn-pastel btn-yellow">
+              <span>💬</span> <span>Sapa Aku (Kontak)</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-childhood-card" title="Klik untuk memperbesar foto! 🫧">
+            <div class="hero-childhood-img-wrapper">
+              <img src="assets/images/sastra-childhood-spongebob.jpg" alt="Foto Masa Kecil Sastra dengan Kaos SpongeBob" class="hero-childhood-img">
+            </div>
+            <div class="hero-childhood-caption">
+              <span>💛 SpongeBob Era Since Day 1! 🧽</span>
+            </div>
+            <div class="floating-sticker sticker-1">
+              <span>✨</span> <span>Little Sastra</span>
+            </div>
+            <div class="floating-sticker sticker-2">
+              <img src="assets/images/spongebob-cute.svg" alt="" style="width: 20px; height: 20px;">
+              <span>OG Fan!</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick Feature Cards -->
+      <section class="features-grid">
+        <a href="profile.html" class="feature-box box-yellow">
+          <div class="feature-icon-wrapper">👩‍💻</div>
+          <h2 class="feature-title">Profil & Data Diri</h2>
+          <p class="feature-desc">
+            Kenalan lebih dekat dengan Sastra, alumni SMPN 2 Bantur yang kini menempuh jurusan Teknik Komputer dan Jaringan (TKJ) di SMK Telkom Malang.
+          </p>
+        </a>
+
+        <a href="contact.html" class="feature-box box-pink">
+          <div class="feature-icon-wrapper">📱</div>
+          <h2 class="feature-title">Sosial Media</h2>
+          <p class="feature-desc">
+            Temukan akun Instagram resmi <strong>@atrss.a</strong> dan TikTok <strong>@sasstraaaaa</strong> untuk seru-seruan bareng!
+          </p>
+        </a>
+
+        <div class="feature-box box-blue">
+          <div class="feature-icon-wrapper">🌸</div>
+          <h2 class="feature-title">Pastel & Aesthetic</h2>
+          <p class="feature-desc">
+            Didesain dengan tone warna pastel lembut yang adem di mata, dipadukan nuansa ceria Bikini Bottom.
+          </p>
+        </div>
+      </section>
+
+      <!-- Interactive Spongebob Quote / Mood Generator -->
+      <section class="quote-interactive-card">
+        <div class="quote-content">
+          <div class="quote-label">🫧 Mood & Kutipan Hari Ini</div>
+          <div class="quote-text" id="spongebob-quote-text">
+            "Aku siap! Aku siap! Menghadapi hari dengan senyuman terbaik! 🧽✨"
+          </div>
+          <div class="quote-author" id="spongebob-quote-author">
+            — SpongeBob SquarePants
+          </div>
+        </div>
+        <button id="new-quote-btn" class="quote-btn">
+          <span>🎲</span> <span>Ganti Kutipan</span>
+        </button>
+      </section>
+
+      <!-- Cute Bikini Bottom Elements Showcase -->
+      <section style="display: flex; justify-content: center; align-items: center; gap: 24px; margin-bottom: 20px; flex-wrap: wrap;">
+        <div style="display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.7); padding: 8px 18px; border-radius: 9999px; border: 1.5px solid var(--pastel-pink-border); font-family: var(--font-heading); font-size: 0.9rem; color: #BE185D;">
+          <img src="assets/images/jellyfish-cute.svg" alt="" style="width: 24px; height: 24px;">
+          <span>Tangkap Ubur-ubur</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.7); padding: 8px 18px; border-radius: 9999px; border: 1.5px solid var(--pastel-yellow-border); font-family: var(--font-heading); font-size: 0.9rem; color: #854D0E;">
+          <img src="assets/images/krabby-patty.svg" alt="" style="width: 24px; height: 24px;">
+          <span>Resep Rahasia Krabby Patty</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.7); padding: 8px 18px; border-radius: 9999px; border: 1.5px solid var(--pastel-blue-border); font-family: var(--font-heading); font-size: 0.9rem; color: #0284C7;">
+          <img src="assets/images/gary-cute.svg" alt="" style="width: 24px; height: 24px;">
+          <span>Gary bilang: "Meow~"</span>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-card">
+        <p class="footer-credit">
+          Dibuat dengan <span class="heart">💖</span> oleh <strong>Sastra</strong> • atrssasaw
+        </p>
+        <p class="footer-sub">
+          SMK Telkom Malang (TKJ) • Siap di-deploy di Vercel ✨
+        </p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast-notification">
+    <span>✨</span>
+    <span class="toast-message">Notifikasi</span>
+  </div>
+
+  <!-- Image Lightbox Modal -->
+  <div id="image-modal" class="image-modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="modal-close-btn" class="modal-close-btn" title="Tutup">✕</button>
+      <img id="modal-img" src="" alt="Zoom Foto" class="modal-img">
+      <div id="modal-caption" style="font-family: var(--font-heading); font-size: 1.1rem; text-align: center; font-weight: 600; color: var(--text-dark);"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

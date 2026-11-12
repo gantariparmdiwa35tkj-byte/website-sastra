@@ -1,0 +1,19 @@
+{
+  "name": "atrssasaw-web",
+  "version": "1.0.0",
+  "description": "Website personal atrssasaw bertema pastel dan Spongebob lucu oleh Sastra (SMK Telkom Malang TKJ)",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "pastel",
+    "spongebob",
+    "smk-telkom-malang",
+    "tkj",
+    "atrssasaw"
+  ],
+  "author": "Sastra",
+  "license": "MIT"
+}

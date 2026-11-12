@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak & Media Sosial - atrssasaw 💌</title>
+  <meta name="description" content="Halaman kontak dan media sosial resmi Sastra (atrssasaw) - Instagram dan TikTok.">
+  <link rel="icon" href="assets/images/flower-cloud.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Floating Bikini Bottom Flower Clouds (Background) -->
+  <img src="assets/images/flower-cloud.svg" alt="" class="flower-cloud-bg cloud-1" aria-hidden="true">
+  <img src="assets/images/flower-cloud.svg" alt="" class="flower-cloud-bg cloud-2" aria-hidden="true">
+  <img src="assets/images/flower-cloud.svg" alt="" class="flower-cloud-bg cloud-3" aria-hidden="true">
+  <img src="assets/images/flower-cloud.svg" alt="" class="flower-cloud-bg cloud-4" aria-hidden="true">
+
+  <!-- Floating Bubbles Container (Interactive) -->
+  <div id="bubble-container" title="Klik gelembung untuk meletuskannya! 🫧"></div>
+
+  <!-- Main Page Wrapper -->
+  <div class="page-wrapper">
+
+    <!-- Navigation Header -->
+    <header class="site-header">
+      <nav class="nav-container">
+        <a href="index.html" class="brand-logo">
+          <div class="brand-icon">🧽</div>
+          <span class="brand-text">atrssasaw</span>
+        </a>
+
+        <ul class="nav-links">
+          <li>
+            <a href="index.html" class="nav-link">
+              <span>🏠</span> <span>Beranda</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html" class="nav-link">
+              <span>🎀</span> <span>Profil</span>
+            </a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link active">
+              <span>💌</span> <span>Kontak</span>
+            </a>
+          </li>
+          <li>
+            <button id="sound-toggle" class="sound-toggle-btn" title="Toggle Suara Efek" aria-label="Toggle Sound">
+              🔊
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Contact Hero -->
+      <section class="contact-hero">
+        <div class="section-tag" style="margin: 0 auto 12px auto;">
+          <span>💬</span> <span>Let's Connect!</span>
+        </div>
+        <h2>Yuk Berteman & Terhubung!</h2>
+        <p>
+          Senang banget bisa kenalan! Kamu bisa menemukan dan mengikuti keseharianku lewat media sosial di bawah ini. Jangan sungkan untuk follow atau saling sapa yaa~ ✨
+        </p>
+      </section>
+
+      <!-- Social Cards Grid -->
+      <section class="social-cards-grid">
+        <!-- Instagram Card -->
+        <div class="social-card card-ig">
+          <div class="social-icon-bubble">
+            <!-- Instagram Cute SVG -->
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </div>
+          <h3 class="social-platform-title">Instagram</h3>
+          <div class="social-handle">@atrss.a</div>
+          <p class="social-desc">
+            Tempat berbagi cerita santai, foto candid, aesthetic stories, dan update harian!
+          </p>
+          <div class="social-btn-group">
+            <a href="https://instagram.com/atrss.a" target="_blank" rel="noopener noreferrer" class="btn-pastel btn-pink">
+              <span>↗</span> <span>Buka IG</span>
+            </a>
+            <button class="btn-pastel btn-white copy-handle-btn" data-handle="@atrss.a">
+              <span>📋</span> <span>Salin</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- TikTok Card -->
+        <div class="social-card card-tiktok">
+          <div class="social-icon-bubble">
+            <!-- TikTok Cute SVG -->
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+            </svg>
+          </div>
+          <h3 class="social-platform-title">TikTok</h3>
+          <div class="social-handle">@sasstraaaaa</div>
+          <p class="social-desc">
+            Konten seru, tren terkini, video lucu, dan vibes ceria bareng teman-teman!
+          </p>
+          <div class="social-btn-group">
+            <a href="https://tiktok.com/@sasstraaaaa" target="_blank" rel="noopener noreferrer" class="btn-pastel btn-blue">
+              <span>↗</span> <span>Buka TikTok</span>
+            </a>
+            <button class="btn-pastel btn-white copy-handle-btn" data-handle="@sasstraaaaa">
+              <span>📋</span> <span>Salin</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Friendly Note / Safe Privacy Notice -->
+      <section style="background: rgba(255, 255, 255, 0.7); border: 2px dashed var(--pastel-yellow-border); border-radius: var(--radius-md); padding: 18px 24px; text-align: center; margin-bottom: 36px;">
+        <p style="font-family: var(--font-heading); color: #854D0E; font-size: 0.95rem;">
+          🔒 <strong>Privasi & Keamanan:</strong> Demi kenyamanan dan privasi bersama, komunikasi personal resmi hanya melalui platform Instagram dan TikTok di atas.
+        </p>
+      </section>
+
+      <!-- Interactive Guestbook / Sticky Notes Board -->
+      <section class="guestbook-card">
+        <div class="guestbook-header">
+          <h3>
+            <span>📝</span> <span>Papan Pesan Manis (Virtual Notes)</span>
+          </h3>
+          <span style="font-size: 0.88rem; color: var(--text-muted); background: var(--pastel-yellow); padding: 4px 12px; border-radius: 9999px; font-weight: 600;">
+            Tinggalkan pesan di sini! ✨
+          </span>
+        </div>
+
+        <form id="guestbook-form" class="guestbook-input-row">
+          <input type="text" id="guestbook-name-input" class="guestbook-input" placeholder="Namamu / Panggilan..." style="max-width: 220px;" maxlength="24">
+          <input type="text" id="guestbook-note-input" class="guestbook-input" placeholder="Tulis pesan singkat yang lucu / menyemangati..." maxlength="120" required>
+          <button type="submit" class="btn-pastel btn-pink" style="padding: 10px 22px;">
+            <span>📌</span> <span>Tempel Catatan</span>
+          </button>
+        </form>
+
+        <div id="guestbook-notes" class="notes-container">
+          <!-- Loaded dynamically from js/main.js -->
+        </div>
+      </section>
+
+      <!-- Cute Spongebob Friendship Farewell Banner -->
+      <section style="background: linear-gradient(135deg, #FEF9C3 0%, #FCE7F3 100%); border: 2px solid var(--pastel-pink-border); border-radius: var(--radius-lg); padding: 24px 30px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;">
+        <div style="display: flex; align-items: center; gap: 16px;">
+          <img src="assets/images/gary-cute.svg" alt="Gary" style="width: 55px; height: 55px;">
+          <div>
+            <h4 style="font-family: var(--font-heading); font-size: 1.15rem; color: var(--text-dark);">
+              Terima kasih sudah berkunjung ke atrssasaw! 🧽🐌
+            </h4>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">
+              Semoga harimu selalu menyenangkan dan penuh keceriaan!
+            </p>
+          </div>
+        </div>
+        <a href="index.html" class="btn-pastel btn-yellow">
+          <span>🏠</span> <span>Kembali ke Beranda</span>
+        </a>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-card">
+        <p class="footer-credit">
+          Dibuat dengan <span class="heart">💖</span> oleh <strong>Sastra</strong> • atrssasaw
+        </p>
+        <p class="footer-sub">
+          SMK Telkom Malang (TKJ) • Siap di-deploy di Vercel ✨
+        </p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast-notification">
+    <span>✨</span>
+    <span class="toast-message">Notifikasi</span>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

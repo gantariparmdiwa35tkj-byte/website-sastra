@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <defs>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Iconic Bikini Bottom 5-petal flower cloud -->
+  <g opacity="0.85" filter="url(#softGlow)">
+    <circle cx="100" cy="80" r="32" fill="#BAE6FD" />
+    <circle cx="100" cy="38" r="28" fill="#FBCFE8" />
+    <circle cx="140" cy="65" r="28" fill="#FEF08A" />
+    <circle cx="125" cy="118" r="28" fill="#BBF7D0" />
+    <circle cx="75" cy="118" r="28" fill="#DDD6FE" />
+    <circle cx="60" cy="65" r="28" fill="#FED7AA" />
+    <!-- Center hole -->
+    <circle cx="100" cy="80" r="14" fill="#FFFFFF" />
+  </g>
+</svg>

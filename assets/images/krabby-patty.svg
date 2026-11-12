@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 140" fill="none">
+  <defs>
+    <filter id="pattyShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#78350F" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <g filter="url(#pattyShadow)">
+    <!-- Top Bun -->
+    <path d="M25 60 C25 22, 135 22, 135 60 Z" fill="#FBBF24" stroke="#B45309" stroke-width="3"/>
+    <!-- Sesame Seeds -->
+    <ellipse cx="55" cy="40" rx="3.5" ry="2" fill="#FEF3C7" transform="rotate(-15 55 40)"/>
+    <ellipse cx="78" cy="32" rx="3.5" ry="2" fill="#FEF3C7"/>
+    <ellipse cx="102" cy="38" rx="3.5" ry="2" fill="#FEF3C7" transform="rotate(20 102 38)"/>
+    <ellipse cx="68" cy="48" rx="3" ry="1.8" fill="#FEF3C7" transform="rotate(10 68 48)"/>
+    <ellipse cx="92" cy="48" rx="3" ry="1.8" fill="#FEF3C7" transform="rotate(-10 92 48)"/>
+
+    <!-- Lettuce (Wavy green) -->
+    <path d="M20 62 C30 56, 40 68, 50 62 C60 56, 70 68, 80 62 C90 56, 100 68, 110 62 C120 56, 130 68, 140 62 C145 66, 135 72, 125 70 C115 72, 105 68, 95 72 C85 68, 75 72, 65 68 C55 72, 45 68, 35 72 C25 72, 16 66, 20 62 Z" fill="#4ADE80" stroke="#15803D" stroke-width="2"/>
+
+    <!-- Tomato Slice -->
+    <rect x="26" y="68" width="108" height="9" rx="4" fill="#EF4444" stroke="#991B1B" stroke-width="2"/>
+
+    <!-- Cheese Slice (Corner hanging out) -->
+    <polygon points="28,78 132,78 120,90 80,84 40,94" fill="#FACC15" stroke="#CA8A04" stroke-width="2"/>
+
+    <!-- Patty (Burger meat) -->
+    <rect x="25" y="82" width="110" height="15" rx="7" fill="#78350F" stroke="#451A03" stroke-width="2.5"/>
+
+    <!-- Bottom Bun -->
+    <path d="M28 97 H132 C132 115, 28 115, 28 97 Z" fill="#FBBF24" stroke="#B45309" stroke-width="3"/>
+
+    <!-- Blushing Cute Face on the Burger -->
+    <circle cx="70" cy="50" r="2.5" fill="#451A03"/>
+    <circle cx="90" cy="50" r="2.5" fill="#451A03"/>
+    <path d="M78 52 Q80 55 82 52" stroke="#451A03" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <ellipse cx="64" cy="53" rx="3" ry="1.5" fill="#F472B6" opacity="0.6"/>
+    <ellipse cx="96" cy="53" rx="3" ry="1.5" fill="#F472B6" opacity="0.6"/>
+  </g>
+</svg>
